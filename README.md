@@ -16,7 +16,7 @@ Source for ASCII-fonts: https://www.coolgenerator.com/ascii-text-generator
 
 # What is this?
 This is template for an Express/TypeScript project in VS Code with linting.
-It will make the test api available via [http://localhost:8081/api/test].
+It will make the test api available via http://localhost:8081/api/test.
 
 # What's the motivation?
 To have an easier start for my projects.
