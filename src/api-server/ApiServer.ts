@@ -1,5 +1,5 @@
 import express from "express";
-import { Functions } from "./Functions";
+import { Functions } from "./Functions.js";
 
 const apiPortRaw = process.env["API_PORT"];
 const apiPort = Number(apiPortRaw);
@@ -11,5 +11,5 @@ export const server = app;
 
 server.listen( 
 	apiPort, 
-	() => console.info( `PAN HR API Server is listening at port ${apiPort}...`) 
+	() => console.info( `API Server is listening at port ${apiPort}...`) 
 );

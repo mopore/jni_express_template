@@ -21,7 +21,7 @@
                 "${workspaceFolder}/dist/**/*.js"
             ]
         },{
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [

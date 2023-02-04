@@ -48,6 +48,12 @@ npm install -g npm-check-updates
 
 # Release History
 
+## v0.1.2
+- Collect all the latest versions.
+- Replace npm with pnpm.
+- Use 'NodeNext' for module resolution.
+- Replace jest with mocha.
+
 ## v0.1.1
 - Template restriction for linting removed.
 - Documentation in readme extended.

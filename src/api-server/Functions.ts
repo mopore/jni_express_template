@@ -1,5 +1,5 @@
 import { Express } from "express";
-import { ApiResponse } from "./ApiResponse";
+import { ApiResponse } from "./ApiResponse.js";
 export class Functions {
 
     static apply( app: Express ): void {
