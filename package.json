@@ -11,14 +11,15 @@
   "scripts": {
     "test": "mocha dist/test/**/*.js --recursive --exit",
     "build": "rm -rf ./dist && tsc -b",
-    "build-api-image": "docker image build -t jni_express_template .",
-    "up-api": "docker-compose -f ./config/local-api/docker-compose.yaml up -d",
-    "down-api": "docker-compose -f ./config/local-api/docker-compose.yaml down",
+    "build-image": "docker image build -t jni_express_template .",
+    "up-container": "docker-compose -f ./config/local-api/docker-compose.yaml up -d",
+    "down-container": "docker-compose -f ./config/local-api/docker-compose.yaml down",
     "preinstall": "npx only-allow pnpm"
   },
   "keywords": [
     "template",
-    "TypeScript"
+    "TypeScript",
+    "Express"
   ],
   "author": "jni@mopore.org",
   "license": "ISC",

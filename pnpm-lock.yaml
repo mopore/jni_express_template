@@ -1,41 +1,40 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@types/chai': ^4.3.4
+  '@types/express': ^4.17.17
+  '@types/jest': ^29.4.0
+  '@types/mocha': ^10.0.1
+  '@types/node': ^18.11.18
+  '@typescript-eslint/eslint-plugin': ^5.50.0
+  '@typescript-eslint/parser': ^5.50.0
+  chai: ^4.3.7
+  dotenv: ^16.0.3
+  eslint: ^8.33.0
+  express: ^4.18.2
+  jest: ^29.4.1
+  mocha: ^10.2.0
+  ts-jest: ^29.0.5
+  typescript: ^4.9.5
 
-  .:
-    specifiers:
-      '@types/chai': ^4.3.4
-      '@types/express': ^4.17.17
-      '@types/jest': ^29.4.0
-      '@types/mocha': ^10.0.1
-      '@types/node': ^18.11.18
-      '@typescript-eslint/eslint-plugin': ^5.50.0
-      '@typescript-eslint/parser': ^5.50.0
-      chai: ^4.3.7
-      dotenv: ^16.0.3
-      eslint: ^8.33.0
-      express: ^4.18.2
-      jest: ^29.4.1
-      mocha: ^10.2.0
-      ts-jest: ^29.0.5
-      typescript: ^4.9.5
-    dependencies:
-      dotenv: 16.0.3
-      express: 4.18.2
-    devDependencies:
-      '@types/chai': 4.3.4
-      '@types/express': 4.17.17
-      '@types/jest': 29.4.0
-      '@types/mocha': 10.0.1
-      '@types/node': 18.11.18
-      '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
-      '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
-      chai: 4.3.7
-      eslint: 8.33.0
-      jest: 29.4.1_@types+node@18.11.18
-      mocha: 10.2.0
-      ts-jest: 29.0.5_wrz2f4catxnbofknv5bs36jgqa
-      typescript: 4.9.5
+dependencies:
+  dotenv: 16.0.3
+  express: 4.18.2
+
+devDependencies:
+  '@types/chai': 4.3.4
+  '@types/express': 4.17.17
+  '@types/jest': 29.4.0
+  '@types/mocha': 10.0.1
+  '@types/node': 18.11.18
+  '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
+  '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
+  chai: 4.3.7
+  eslint: 8.33.0
+  jest: 29.4.1_@types+node@18.11.18
+  mocha: 10.2.0
+  ts-jest: 29.0.5_wrz2f4catxnbofknv5bs36jgqa
+  typescript: 4.9.5
 
 packages:
 
