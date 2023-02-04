@@ -22,17 +22,16 @@ It will make the test api available via http://localhost:8081/api/test.
 To have an easier start for my projects.
 
 # Installation
-Install via npm install.
+Make sure pnpm is installed (`npm install -g pnpm`).
 ```
-npm install
-npm run build
+pnpm i
 ```
-To create a docker image use `npm run build-api-image`.
+To create a docker image use `pnpm build-image`.
 
 
 # How to use
 To run the API server locally (without docker compose) use the VS Code launch config.
-With docker (compose), run `npm run up-api` and `npm down-api` correspondingly.
+With docker (compose), run `pnpm up-container` and `pnpm down-container` correspondingly.
 
 The API port is configurable via an environment variable "API_PORT".
 The VS Code launch config (.vscode/launch.json) and the provided docker compose file (config/local-api/docker-compose.yaml) set the API_PORT to 8081.
@@ -46,7 +45,7 @@ The VS Code launch config (.vscode/launch.json) and the provided docker compose 
 
 # Release History
 
-## v0.1.2
+## v0.2.0
 - Collect all the latest versions.
 - Replace npm with pnpm.
 - Use 'NodeNext' for module resolution.

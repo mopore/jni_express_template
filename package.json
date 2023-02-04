@@ -1,6 +1,6 @@
 {
   "name": "jni_express_template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Template to start with a fresh Express/TypeScript project.",
   "main": "App.ts",
   "type": "module",
